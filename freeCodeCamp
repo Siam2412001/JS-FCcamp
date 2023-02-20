@@ -138,3 +138,9 @@ function alternet(val){
   return answer;
 }
 console.log(alternet(5))
+
+
+function lessOrnot(a,b){
+  return a<b;
+}
+console.log(lessOrnot(10,15));
