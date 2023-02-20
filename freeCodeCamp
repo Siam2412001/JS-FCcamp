@@ -1,0 +1,140 @@
+// let x = "HELLO WORLD!"
+// console.log(x);
+
+// function one(name) {
+//   console.log('hello my name is ' + name);
+//   return function two(uniname) {
+//     console.log('My Varsity name is ' + uniname);
+//     return function three(place) {
+//       console.log('It is situated in ' + place);
+//     }
+//   };
+// };
+
+// one('Siam')('BSFMSTU')('Jamalpur');
+
+
+// let product = ['pen', 'paper', 'clip', 'camera'];
+// product.indexOf('clip');
+// console.log(product)
+// console.log(product.splice(1));
+// product.push('phone');
+// product.unshift('notepad');
+// product.splice(1);
+// product[0] = 'pencil';
+// console.log(product);
+// console.log(product.indexof('clip'))
+
+// its about object now............
+
+// let codeOBJ = {
+//   name: "siam",
+//   age: 22,
+//   shirt: "blue",
+//   year: 2023
+// }
+
+// codeOBJ.location = 'Dhaka';
+// console.log(codeOBJ);
+
+
+
+// let mi = 'my name is ';
+// let s = ' siam';
+// console.log(mi += s);
+
+
+// function testEqual(val) {
+//   if (val == 12) {
+//     return 'equal';
+//   }
+//   return 'not equal';
+// }
+// console.log(testEqual(10))
+
+
+
+// function Chain(num) {
+//   if (num < 5) {
+//     return 'tiny'
+//   }
+//   else if (num < 10) {
+//     return 'small';
+//   }
+//   else if (num < 15) {
+//     return 'medium';
+//   }
+//   else if (num < 20) {
+//     return 'large';
+//   }
+//   else {
+//     return 'huge';
+//   }
+
+// }
+// console.log(Chain(2))
+
+
+// hoist();
+// function hoist() {
+//   console.log('my name is siam')
+// }
+
+// function hoist() {
+//   console.log('it is siam')
+// }
+
+// console.log(hoist())
+
+// switch statement.....its the alternet of 'else/if'
+
+// function caseSwitch(val){
+
+//       var answer = '';
+//   switch(val){
+//     case 1:
+//       answer = 'alpha';
+//       break;
+//     case 2:
+//       answer = 'beta';
+//       break;
+//     case 3:
+//       answer = 'gamma';
+//       break;
+      
+//     case 'name':
+//       answer = 'lamda';
+//       break;
+
+//     default :
+//       answer ='it does not exist'
+//       break;
+//   }
+//   return answer;
+// }
+// console.log(caseSwitch('name'));
+
+//here is an alternative of this................
+
+function alternet(val){
+  var answer = '';
+  switch(val){
+    case 1:
+    case 2:
+    case 3:
+      answer ='low';
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer ='mid';
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer ='high';
+      break;
+  }
+  return answer;
+}
+console.log(alternet(5))
